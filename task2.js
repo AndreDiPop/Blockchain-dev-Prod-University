@@ -9,8 +9,6 @@ console.log(`0) Andre's message:
 message: ${msg}
 message digest: ${digested.toString('hex')}`);
 
-// сделать приватныйКлюч
-
 function digest(str, algo = 'sha256') {
     return crypto.createHash(algo).update(str).digest();
 }
@@ -20,7 +18,7 @@ do {
     privateKey = crypto.randomBytes(32); 
 } while (!secp256k1.privateKeyVerify(privateKey));
 
-// получить публичный ключ в каком-то компрессном формате
+
 const publicKey = secp256k1.publicKeyCreate(privateKey);
 
 console.log(`1) Andre aquired new keypair:
