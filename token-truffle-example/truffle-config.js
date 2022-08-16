@@ -22,9 +22,8 @@ module.exports = {
       gasPrice: 10 * 1e9
     }
   },
-
   solc: {
-    version: "0.4.18",
+    version: "^0.4.18",
     optimizer: {
       enabled: true,
       runs: 200

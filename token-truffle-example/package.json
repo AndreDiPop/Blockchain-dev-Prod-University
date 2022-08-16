@@ -26,12 +26,11 @@
     "babel-preset-stage-2": "^6.18.0",
     "babel-preset-stage-3": "^6.17.0",
     "babel-register": "^6.23.0",
+
     "ganache-cli": "^6.0.3",
-    "mixbytes-solidity": "0.1.8",
     "truffle": "4.0.5",
-    "zeppelin-solidity": "1.4.0"
-  },
-  "dependencies": {
-    "solc": "^0.8.16"
+    "zeppelin-solidity": "1.4.0",
+
+    "mixbytes-solidity": "0.1.8"
   }
 }
